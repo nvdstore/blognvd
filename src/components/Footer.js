@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-5 flex flex-col gap-4 items-center sm:flex-row justify-between">
         {/* Logo Section */}
         <div className="flex items-center gap-[3px] text-white">
-          <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
+          <Image src="/images/logonvd.gif" alt="Logo" width={40} height={40} />
           <a href="/" className="text-white text-lg font-semibold">
             NVDSTORE NEWS
           </a>
