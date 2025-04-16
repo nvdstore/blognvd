@@ -40,35 +40,7 @@ export default function Header() {
   return (
     <header className="px-2 py-8 relative">
       <NavBar />
-      <motion.div 
-        className="my-10 text-center pt-10"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-        <h1 className="text-5xl font-bold sm:text-8xl mb-4">
-          NVDSTORE NEWS
-        </h1>
-        <p className="mx-auto mt-4 max-w-[740px] text-sm text-gray-400 sm:text-base">
-          Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini,
-        </p>
-        <form
-          onSubmit={handleSubmit}
-          className="mx-auto mt-8 flex max-w-[500px] flex-row items-center justify-center"
-        >
-          <Input
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            type="email"
-            className="w-full sm:py-5 rounded-r-none border-r-0 focus-visible:ring-0 focus-visible:ring-offset-0"
-            required
-          />
-          <Button type="submit" className="rounded-l-none sm:py-5  hover:bg-gray-200">
-            Subscribe
-          </Button>
-        </form>
-      </motion.div>
+      
 
       <AlertDialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <AlertDialogTrigger asChild>
