@@ -60,7 +60,7 @@ const NavBar = ({ className }) => {
         className
       )}
     >
-      <div className="container mx-auto px-4 py-2 ">
+      <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between w-full">
           <Link href="/" className="flex items-center gap-[3px] text-base font-semibold sm:text-2xl">
             <Image
