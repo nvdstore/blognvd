@@ -70,7 +70,7 @@ const NavBar = ({ className }) => {
               alt="Logo"
               className="w-[25px] sm:w-[30px] dark:invert dark:contrast-200 dark:brightness-125"
             />
-            <span>logmos</span>
+            <span>NVDSTORE</span>
           </Link>
 
           <div className="hidden md:block">
@@ -112,8 +112,8 @@ const NavBar = ({ className }) => {
               </SheetTrigger>
               <SheetContent side="left" className="backdrop-blur-md bg-transparent border-none text-white">
                 <SheetHeader>
-                  <SheetTitle className="text-white">Blogmos</SheetTitle>
-                  <SheetDescription>Explore the cosmos of blogmos</SheetDescription>
+                  <SheetTitle className="text-white">NVDSTORE NEWS</SheetTitle>
+                  <SheetDescription>: Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini,</SheetDescription>
                 </SheetHeader>
                 <div className="py-4">
                   <nav className="flex flex-col space-y-4">
