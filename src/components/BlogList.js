@@ -11,7 +11,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Separator } from "./ui/separator";
 
 const ITEMS_PER_PAGE = 9;
-const categories = ["All", "Mobile Legends", "Startup", "Lifestyle"];
+const categories = ["All", "Mobile Legends"];
 
 export default function BlogList() {
   const [activeCategory, setActiveCategory] = useState("All");
