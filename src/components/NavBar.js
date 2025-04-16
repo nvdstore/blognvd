@@ -86,7 +86,7 @@ const NavBar = ({ className }) => {
                 <NavigationMenuItem>
                   <Link href="/blogs" legacyBehavior passHref>
                     <NavigationMenuLink className=" mx-4 hover:border-current transition-all py-2 border-b-2 border-transparent">
-                      Blogs
+                      Artikel
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
