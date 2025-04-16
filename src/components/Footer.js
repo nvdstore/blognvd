@@ -18,7 +18,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-center text-sm text-gray-400">
-          All rights reserved. &copy; {new Date().getFullYear()} Blogmos v2
+          All rights reserved. &copy; {new Date().getFullYear()} NVDSTORE INDONESIA
         </p>
 
         {/* Social Icons */}
