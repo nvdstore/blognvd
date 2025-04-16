@@ -47,11 +47,10 @@ export default function Header() {
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-5xl font-bold sm:text-8xl mb-4">
-          BLOGS
+          NVDSTORE NEWS
         </h1>
         <p className="mx-auto mt-4 max-w-[740px] text-sm text-gray-400 sm:text-base">
-          Discover the latest insights and trends in our blog. Join our
-          community and stay updated!
+          Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini,
         </p>
         <form
           onSubmit={handleSubmit}
