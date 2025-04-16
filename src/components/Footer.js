@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex items-center gap-[3px] text-white">
           <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
           <a href="/" className="text-white text-lg font-semibold">
-            logmos v2
+            NVDSTORE NEWS
           </a>
         </div>
 
