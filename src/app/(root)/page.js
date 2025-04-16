@@ -13,11 +13,11 @@ const Home = () => {
       </header>
       <main>
         <section className="min-h-[calc(100vh-60px)] flex flex-col items-center justify-center px-4 text-center">
-          <h1 className="text-7xl sm:text-9xl font-bold mb-4">
+          <h1 className="text-5xl font-bold sm:text-8xl mb-4">
             NVDSTORE NEWS
           </h1>
           <p className="text-xl mb-8 text-muted-foreground italic">
-            ✨ HLMNPEDIA : Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini, berita mendalam, ulasan lengkap, serta panduan terbaik untuk dunia Esports, Game Mobile, PC, PS4, Switch, dan Xbox One. 🌟 Tetap update dengan berita-berita terbaru dan review eksklusif hanya di TAKAPEDIA News , pusat informasi game yang selalu di depan! 🕹️
+            Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini, berita mendalam, ulasan lengkap, serta panduan terbaik untuk dunia Esports, Game Mobile, PC, PS4, Switch, dan Xbox One. 🌟 Tetap update dengan berita-berita terbaru dan review eksklusif hanya di TAKAPEDIA News , pusat informasi game yang selalu di depan! 🕹️
           </p>
           <Button asChild>
             <Link href="/blogs">
