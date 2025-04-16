@@ -14,14 +14,14 @@ const Home = () => {
       <main>
         <section className="min-h-[calc(100vh-60px)] flex flex-col items-center justify-center px-4 text-center">
           <h1 className="text-7xl sm:text-9xl font-bold mb-4">
-            BLOGMOS
+            NVDSTORE NEWS
           </h1>
           <p className="text-xl mb-8 text-muted-foreground italic">
-            Explore the cosmos of your desire in seconds
+            ✨ HLMNPEDIA : Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini, berita mendalam, ulasan lengkap, serta panduan terbaik untuk dunia Esports, Game Mobile, PC, PS4, Switch, dan Xbox One. 🌟 Tetap update dengan berita-berita terbaru dan review eksklusif hanya di TAKAPEDIA News , pusat informasi game yang selalu di depan! 🕹️
           </p>
           <Button asChild>
             <Link href="/blogs">
-              Dive into the Blogmos <ArrowRight className="ml-2 h-4 w-4" />
+              Dive into the NVDSTORE NEWS <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </section>
@@ -34,7 +34,7 @@ const Home = () => {
         <section className="py-16 px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Explore More?</h2>
           <p className="text-xl mb-8 text-muted-foreground">
-            Discover insightful content across the Blogmos universe
+            Discover insightful content across the NVDSTORE NEWS
           </p>
           <Button asChild variant="outline" size="lg">
             <Link href="/blogs">
