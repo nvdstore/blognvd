@@ -64,7 +64,7 @@ const NavBar = ({ className }) => {
         <div className="flex items-center justify-between w-full">
           <Link href="/" className="flex items-center gap-[3px] text-base font-semibold sm:text-2xl">
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               width={30}
               height={30}
               alt="Logo"
