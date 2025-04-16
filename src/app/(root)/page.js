@@ -17,8 +17,7 @@ const Home = () => {
             NVDSTORE NEWS
           </h1>
           <p className="text-xl mb-8 text-muted-foreground italic">
-            Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini, berita mendalam, ulasan lengkap, serta panduan terbaik untuk dunia Esports, Game Mobile, PC, PS4, Switch, dan Xbox One. 🌟 Tetap update dengan berita-berita terbaru dan review eksklusif hanya di TAKAPEDIA News , pusat informasi game yang selalu di depan! 🕹️
-          </p>
+            Portal Berita Game Terdepan di Indonesia! </p>
           <Button asChild>
             <Link href="/blogs">
               Dive into the NVDSTORE NEWS <ArrowRight className="ml-2 h-4 w-4" />
