@@ -302,6 +302,9 @@ const BlogForm = ({ initialData, isEditMode }) => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
+                            <SelectItem value="mlbb">
+                              Mobile Legends
+                            </SelectItem>
                             <SelectItem value="Startup">Startup</SelectItem>
                             <SelectItem value="Technology">
                               Technology
