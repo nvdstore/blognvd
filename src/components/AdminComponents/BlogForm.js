@@ -38,7 +38,7 @@ const formSchema = z.object({
     .string()
     .min(1, "Description is required")
     .max(200, "Description is too long"),
-  category: z.enum(["Startup", "Technology", "Lifestyle"]),
+  category: z.enum(["Startup", "Technology", "Lifestyle","Mobile Legends"]),
   content: z.string().min(1, "Content is required"),
   image: z.any().optional(),
   tags: z.array(z.string()).default([]),
