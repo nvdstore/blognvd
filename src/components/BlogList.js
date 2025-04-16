@@ -76,7 +76,7 @@ export default function BlogList() {
       <div className="container mx-auto px-4 sm:max-w-7xl pb-12 mt-10">
         <div className="mb-8 flex items-center justify-between gap-4">
           <h4 className="sm:text-4xl font-bold text-primary leading-none m-0 text-nowrap">
-            Our Blogs
+            Artikel Terbaru
           </h4>
           <div className="flex items-center space-x-2">
             <Button
