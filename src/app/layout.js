@@ -9,8 +9,8 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Blog App",
-  description: "Dev : Roshan",
+  title: "NVDSTORE INDONEISA",
+  description: "RIDHO DIAN LESMANA",
 };
 
 export default function RootLayout({ children }) {
