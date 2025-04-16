@@ -64,7 +64,7 @@ const NavBar = ({ className }) => {
         <div className="flex items-center justify-between w-full">
           <Link href="/" className="flex items-center gap-[3px] text-base font-semibold sm:text-2xl">
             <Image
-              src="/images/logo.png"
+              src="/images/logonvd.gif"
               width={30}
               height={30}
               alt="Logo"
@@ -113,7 +113,7 @@ const NavBar = ({ className }) => {
               <SheetContent side="left" className="backdrop-blur-md bg-transparent border-none text-white">
                 <SheetHeader>
                   <SheetTitle className="text-white">NVDSTORE NEWS</SheetTitle>
-                  <SheetDescription>: Portal Berita Game Terdepan di Indonesia! 🎮 Kami menyajikan informasi terkini,</SheetDescription>
+                  <SheetDescription>Portal Berita Game Terdepan di Indonesia</SheetDescription>
                 </SheetHeader>
                 <div className="py-4">
                   <nav className="flex flex-col space-y-4">
@@ -121,7 +121,7 @@ const NavBar = ({ className }) => {
                       Home
                     </Link>
                     <Link href="/blogs" className="text-sm font-medium hover:underline">
-                      Blog
+                      Artikel
                     </Link>
                   </nav>
                 </div>
