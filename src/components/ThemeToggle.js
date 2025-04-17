@@ -50,13 +50,13 @@ const ThemeToggle = () => {
 
       {/* Tombol Top Up Sekarang */}
       <a
-        href="https://www.takapedia.com?utm_source=news&utm_campaign=redirect-button"
+        href="https://www.nvdtopup.web.id?utm_source=news&utm_campaign=redirect-button"
         target="_blank"
         rel="noopener noreferrer"
-        className="md:flex flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 gap-2"
+        className="md:flex flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 gap-2"
       >
         <Image
-          src="/_next/static/media/fire.3dc720a7.gif"
+          src="/images/logonvd.gif"
           alt="Top Up Icon"
           width={20}
           height={20}
