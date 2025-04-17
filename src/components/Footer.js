@@ -16,17 +16,15 @@ const Footer = () => {
       <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Logo dan Deskripsi */}
         <div className="flex flex-col items-center md:items-start gap-2">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/images/logonvd.gif"
-              alt="Logo"
-              width={40}
-              height={40}
-            />
-            <Link href="/" className="text-white text-lg font-semibold">
-              NVDSTORE NEWS
-            </Link>
-          </div>
+          <div className="flex items-center">
+  <Image
+    src="/images/logonvd.gif"
+    alt="Logo"
+    width={64} // kamu bisa sesuaikan nilai ini
+    height={64} // ini juga bisa disesuaikan
+    className="h-16 w-auto"
+  />
+</div>
           <p className="text-sm text-gray-400 mt-2 text-center md:text-left">
             Portal Berita & Top Up Game Terpercaya di Indonesia.
           </p>
