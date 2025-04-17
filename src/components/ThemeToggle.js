@@ -54,7 +54,7 @@ const ThemeToggle = () => {
          <Link href="https://www.nvdtopup.web.id"
         target="_blank"
         rel="noopener noreferrer"
-        className=""
+        className="px-4 gap-2"
       >
         <Image
           src="/images/fire.gif"
