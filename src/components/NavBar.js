@@ -70,7 +70,7 @@ const NavBar = ({ className }) => {
               alt="Logo"
               className="w-[25px] sm:w-[30px] dark:invert dark:contrast-200 dark:brightness-125"
             />
-            <span>NVDSTORE</span>
+            <span className="hidden md:inline">NVDSTORE</span>
           </Link>
 
           <div className="hidden md:block">
