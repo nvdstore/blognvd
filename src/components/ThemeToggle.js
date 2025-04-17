@@ -49,11 +49,11 @@ const ThemeToggle = () => {
       </DropdownMenu>
 
       {/* Tombol Top Up Sekarang */}
-      <a
-        href="https://www.nvdtopup.web.id?utm_source=news&utm_campaign=redirect-button"
+      <Button asChild variant="outline" size="lg">
+         <Link href="https://www.nvdtopup.web.id"
         target="_blank"
         rel="noopener noreferrer"
-        className="md:flex flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-rose-900 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 gap-2"
+        className=""
       >
         <Image
           src="/images/fire.gif"
@@ -63,7 +63,8 @@ const ThemeToggle = () => {
           className="h-5 w-5 object-contain"
         />
         Top Up <span className="hidden md:inline">Sekarang</span>
-      </a>
+             </Link>
+      </Button>
     </div>
   );
 };
