@@ -64,12 +64,12 @@ const NavBar = ({ className }) => {
         <div className="flex items-center justify-between w-full">
           <Link href="/" className="flex items-center gap-[3px] text-base font-semibold sm:text-2xl">
             <Image
-              src="/images/logonvd.gif"
-              width={30}
-              height={30}
-              alt="Logo"
-              className="w-[25px] sm:w-[30px] dark:invert dark:contrast-200 dark:brightness-125"
-            />
+  src="/images/logonvd.gif"
+  width={64}
+  height={64}
+  alt="Logo"
+  className="h-16 w-auto"
+/>
             <span className="hidden md:inline">NVDSTORE</span>
           </Link>
 
