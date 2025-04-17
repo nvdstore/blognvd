@@ -68,7 +68,7 @@ const NavBar = ({ className }) => {
   width={64}
   height={64}
   alt="Logo"
-  className="h-16 w-auto"
+  className="h-10 w-auto"
 />
             <span className="hidden md:inline">NVDSTORE</span>
           </Link>
