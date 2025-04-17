@@ -22,7 +22,7 @@ const Footer = () => {
     alt="Logo"
     width={64} // kamu bisa sesuaikan nilai ini
     height={64} // ini juga bisa disesuaikan
-    className="h-16 w-auto"
+    className="h-9 w-auto"
   />
 </div>
           <p className="text-sm text-gray-400 mt-2 text-center md:text-left">
