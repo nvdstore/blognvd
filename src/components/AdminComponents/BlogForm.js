@@ -91,7 +91,7 @@ const BlogForm = ({ initialData, isEditMode }) => {
     form.reset({
       title: "",
       description: "",
-      category: "Startup",
+      category: "Mobile Legends",
       content: form.getValues("content"), // Keep the content
       image: null,
       tags: [],
@@ -305,11 +305,11 @@ const BlogForm = ({ initialData, isEditMode }) => {
                             <SelectItem value="Mobile Legends">
                               Mobile Legends
                             </SelectItem>
-                            <SelectItem value="Startup">Startup</SelectItem>
-                            <SelectItem value="Technology">
-                              Technology
+                            <SelectItem value="Free Fire">Free Fire</SelectItem>
+                            <SelectItem value="PUBG Mobile">
+                            PUBG Mobile
                             </SelectItem>
-                            <SelectItem value="Lifestyle">Lifestyle</SelectItem>
+                            <SelectItem value="Point Blank">Point Blank</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
