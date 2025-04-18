@@ -113,7 +113,7 @@ export default function BlogList() {
               key={category}
               variant={activeCategory === category ? "default" : "outline"}
               onClick={() => handleCategoryChange(category)}
-              className="rounded-full"
+              className="rounded-md"
             >
               {category}
             </Button>
