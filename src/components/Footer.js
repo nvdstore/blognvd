@@ -51,13 +51,13 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-end gap-4">
           <p className="text-sm text-white">Ikuti kami di:</p>
           <div className="flex gap-4">
-            <a href="https://facebook.com" target="_blank" className="text-gray-400 hover:text-white">
+            <a href="https://facebook.com/anaksmc" target="_blank" className="text-gray-400 hover:text-white">
               <IconBrandFacebook size={22} />
             </a>
             <a href="https://twitter.com" target="_blank" className="text-gray-400 hover:text-white">
               <IconBrandTwitter size={22} />
             </a>
-            <a href="https://instagram.com" target="_blank" className="text-gray-400 hover:text-white">
+            <a href="https://instagram.com/nvdstoreid" target="_blank" className="text-gray-400 hover:text-white">
               <IconBrandInstagram size={22} />
             </a>
             <a href="https://youtube.com" target="_blank" className="text-gray-400 hover:text-white">
