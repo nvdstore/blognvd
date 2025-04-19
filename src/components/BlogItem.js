@@ -25,18 +25,18 @@ export default function BlogItem({ id, title, category, description, image, crea
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 group-hover:to-black/70 transition-all duration-300" />
         <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         
-        <div className="absolute inset-0 flex flex-col justify-end p-6">
+        <div className="absolute inset-0 flex flex-col justify-end p-4">
           <CardContent className="relative z-10 transition-transform duration-300 transform translate-y-4 group-hover:translate-y-0">
             <span className="inline-block bg-primary text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full mb-3">
               {category}
             </span>
-            <h3 className="text-2xl font-bold text-white mb-2 line-clamp-2">
+            <h3 className="text-sm md:text-2xl font-bold text-white mb-2 line-clamp-2">
               {title}
             </h3>
-            <p className="text-sm text-gray-200 line-clamp-2 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-xs md:text-sm text-gray-200 line-clamp-2 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               {description}
             </p>
-            <div className="flex items-center text-xs text-gray-300 space-x-4 mb-4">
+            <div className="flex items-center text-xs text-gray-300 space-x-4 mb-2">
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 mr-1" />
                 <span>{new Date(createdAt).toLocaleDateString()}</span>
