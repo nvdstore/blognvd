@@ -27,7 +27,7 @@ export default function BlogItem({ id, title, category, description, image, crea
         
         <div className="absolute inset-0 flex flex-col justify-end p-4">
           <CardContent className="relative z-10 transition-transform duration-300 transform translate-y-4 group-hover:translate-y-0">
-            <span className="inline-block bg-primary text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full mb-3">
+            <span className="inline-block bg-primary text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full">
               {category}
             </span>
             <h3 className="text-sm md:text-2xl font-bold text-white mb-2 line-clamp-2">
