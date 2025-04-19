@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black py-6 px-4 mt-auto">
+    <footer className="bg-rose-800 py-6 px-4 mt-auto">
       <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Logo dan Deskripsi */}
         <div className="flex flex-col items-center md:items-start gap-2">
