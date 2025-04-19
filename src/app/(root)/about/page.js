@@ -1,12 +1,13 @@
 import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import { getAuthors } from '@/lib/getAuthors'
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const authors = await getAuthors()
   return (
     <>
       <header className='h-[60px]'>
@@ -35,7 +36,21 @@ export default function AboutPage() {
                 At Blogmos, we believe in the transformative power of ideas. Our mission is to create a platform where diverse voices can be heard, where knowledge is freely shared, and where conversations spark innovation. We strive to make complex topics accessible, inspire creativity, and foster a community of lifelong learners.
               </p>
             </section>
-
+            <section>
+              <h2 className="text-3xl font-semibold mb-4">Meet the Team</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {authors.map((author) => (
+                  <div key={author._id} className="text-center flex flex-col items-center">
+                    <Avatar className="h-24 w-24 mb-4">
+                      <AvatarImage src={author.profileImg || '/placeholder.svg'} alt={author.name} />
+                      <AvatarFallback>{author.name?.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                    </Avatar>
+                    <h3 className="font-semibold text-lg">{author.name}</h3>
+                    <p className="text-gray-400">Author</p>
+                  </div>
+                ))}
+              </div>
+            </section>
             <section>
               <h2 className="text-3xl font-semibold mb-4">Meet the Team</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
