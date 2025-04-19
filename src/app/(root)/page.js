@@ -13,10 +13,10 @@ const Home = () => {
       </header>
       <main>
         <section className="min-h-[calc(100vh-60px)] flex flex-col items-center justify-center px-4 text-center">
-          <h1 className="text-5xl font-bold sm:text-8xl mb-4">
+          <h1 className="text-md md:text-5xl font-bold sm:text-8xl mb-4">
             NVDSTORE NEWS
           </h1>
-          <p className="text-xl mb-8 text-muted-foreground italic">
+          <p className="text-sm mb-8 text-muted-foreground italic">
             Portal Berita Game Terdepan di Indonesia! </p>
           <Button asChild>
             <Link href="/blogs">
