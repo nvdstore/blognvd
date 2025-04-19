@@ -70,10 +70,10 @@ export default function BlogPost({ params }) {
 
 const HeroSection = ({ data }) => (
   <section className="text-center">
-    <h1 className="text-xl md:text-4xl font-bold mb-4">{data.title}</h1>
-    <p className="text-sm text-muted-foreground mb-6">{data.description}</p>
-    <div className="flex items-center justify-center space-x-4 mb-8">
-      <Avatar className="h-12 w-12">
+    <h1 className="text-xl md:text-4xl font-bold mb-2">{data.title}</h1>
+    <p className="text-sm text-muted-foreground mb-4">{data.description}</p>
+    <div className="flex items-center justify-center space-x-4 mb-6">
+      <Avatar className="h-10 w-10">
         <AvatarImage src={data.author.profileImg} alt={data.author.name} />
         <AvatarFallback>{data.author.name[0]}</AvatarFallback>
       </Avatar>
